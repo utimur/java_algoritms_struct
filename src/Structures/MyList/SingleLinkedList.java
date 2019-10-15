@@ -94,8 +94,41 @@ public class SingleLinkedList implements mList {
     }
 
     @Override
-    public void insert(Object obj, int index) {
+    public void addToStart(Object obj) {
+        Node newNode = new Node(obj);
+        newNode.next = head;
+        head = newNode;
+        indexIncrement(newNode.next.getIndex());
+        newNode.setIndex(0);
+    }
 
+    @Override
+    public void insert(Object obj, int index) {
+        Node x = head;
+        if (head.getIndex() == index) {
+            Node newNode = new Node(obj);
+            newNode.next = head;
+            head = newNode;
+            indexIncrement(newNode.next.getIndex());
+            newNode.setIndex(0);
+            return;
+        }
+        while (x != null) {
+            try {
+                if (x.next.getIndex() == index) {
+                    Node newNode = new Node(obj);
+                    newNode.setIndex(x.getIndex());
+                    Node tmp = x.next;
+                    x.next = newNode;
+                    newNode.next = tmp;
+                    indexIncrement(tmp.getIndex());
+                    return;
+                }
+            } catch (NullPointerException e) {
+            }
+
+            x = x.next;
+        }
     }
 
     @Override
@@ -162,11 +195,36 @@ public class SingleLinkedList implements mList {
         } else System.out.println("List is empty");
     }
 
+    @Override
+    public void clear() {
+        try {
+            head = null;
+            tail = null;
+            length = 0;
+        } catch (NullPointerException e) {
+
+        }
+    }
+
+    @Override
+    public int length() {
+        return length;
+    }
+
     private void indexDecrement(int start) {
         Node x = head;
         while (x != null) {
             if (x.getIndex() >= start) {
                 x.setIndex(x.getIndex()-1);
+            }
+            x = x.next;
+        }
+    }
+    private void indexIncrement(int start) {
+        Node x = head;
+        while (x != null) {
+            if (x.getIndex() >= start) {
+                x.setIndex(x.getIndex()+1);
             }
             x = x.next;
         }

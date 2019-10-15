@@ -9,6 +9,7 @@ public interface mList<T> {
 
     // Add object to the end of the list
     public void push(T obj);
+    public void addToStart(T obj);
 
     // Add object to the index place
     public void insert(T obj, int index);
@@ -29,6 +30,9 @@ public interface mList<T> {
     public T getTail();
 
     public void printAll();
+
+    public void clear();
+    public int length();
 
 
 }

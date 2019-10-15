@@ -1,3 +1,4 @@
+import Structures.MyList.Node;
 import Structures.MyList.SingleLinkedList;
 
 public class Main {
@@ -13,17 +14,9 @@ public class Main {
         myList.push(9);
         myList.push(0);
         myList.printAll();
-        myList.delete(5);
-        myList.delete(3);
-        myList.delete(0);
-        System.out.println("-------------");
-        myList.printAll();
-        myList.delete(myList.getHead());
-        System.out.println("-------------");
-        myList.printAll();
-        System.out.println("-------------");
-        myList.printAll();
-        System.out.println("-------------");
+        System.out.println("----");
+        myList.addToStart(7);
+        myList.addToStart(7);
         myList.printAll();
     }
 }
