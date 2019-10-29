@@ -6,7 +6,6 @@ class House {
     int wall;
     int price;
 
-
     private House(HouseBuilder houseBuilder) {
         this.door = houseBuilder.door;
         this.window = houseBuilder.window;

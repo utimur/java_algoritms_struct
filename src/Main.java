@@ -1,22 +1,18 @@
-import Structures.MyList.Node;
-import Structures.MyList.SingleLinkedList;
+import java.io.*;
+import java.util.ArrayList;
+
 
 public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader("input.txt"));
+        PrintWriter pw = new PrintWriter(new File("output.txt"));
 
-    public static void main(String[] args) {
-        SingleLinkedList myList = new SingleLinkedList();
-        myList.push(5);
-        myList.push(2);
-        myList.push(1);
-        myList.push(4);
-        myList.push(8);
-        myList.push(7);
-        myList.push(9);
-        myList.push(0);
-        myList.printAll();
-        System.out.println("----");
-        myList.addToStart(7);
-        myList.addToStart(7);
-        myList.printAll();
+        int[] arr;
+        int testCount = Integer.parseInt(br.readLine());
+
+    }
+
+    public static void inputArr(int testCount, ArrayList arr) {
+
     }
 }
