@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97485e7a-78c0-4bcb-a3d6-911c5c4b5315" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_alg_struct/Algoritms/Algs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_alg_struct/Algoritms/Algs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_alg_struct/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_alg_struct/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algoritms/Algs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritms/Algs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="97485e7a-78c0-4bcb-a3d6-911c5c4b5315" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algoritms/Algs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="-68">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#bracketsEquals#0;class#Algs#0" />
@@ -37,14 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algoritms/Search/BreadthFirstSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -162,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/Algoritms/Search/BinnarySearch.java" />
         <option value="$PROJECT_DIR$/src/Algoritms/Sorts/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/Algoritms/Algs.java" />
+        <option value="$PROJECT_DIR$/src/Algoritms/Search/BreadthFirstSearch.java" />
       </list>
     </option>
   </component>
@@ -194,6 +186,13 @@
               <item name="java_alg_struct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Algoritms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_alg_struct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_alg_struct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Algoritms" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_alg_struct" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Algs">
+  <component name="RunManager" selected="Application.BreadthFirstSearch">
     <configuration name="Algs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algoritms.Algs" />
       <module name="java_alg_struct" />
@@ -264,6 +263,19 @@
     </configuration>
     <configuration name="BinnarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algoritms.Search.BinnarySearch" />
+      <module name="java_alg_struct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algoritms.Search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algoritms.Search.BreadthFirstSearch" />
       <module name="java_alg_struct" />
       <extension name="coverage">
         <pattern>
@@ -295,26 +307,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamApi.StreamApi" />
-      <module name="java_alg_struct" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StreamApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BreadthFirstSearch" />
         <item itemvalue="Application.Algs" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.BinnarySearch" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StreamApi" />
       </list>
     </recent_temporary>
   </component>
@@ -342,12 +341,12 @@
       <workItem from="1572982399212" duration="183000" />
       <workItem from="1573053915168" duration="3681000" />
       <workItem from="1573099141650" duration="6388000" />
-      <workItem from="1573136026581" duration="2136000" />
+      <workItem from="1573136026581" duration="5376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55966000" />
+    <option name="totallyTimeSpent" value="59206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -403,12 +402,6 @@
           <line>10</line>
           <properties />
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Algoritms/Algs.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -481,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algoritms/Algs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="-68">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#bracketsEquals#0;class#Algs#0" />
@@ -559,6 +552,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algoritms/Search/BreadthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
