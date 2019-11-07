@@ -10,13 +10,35 @@ public class Algs {
     static int m ;
 
     public static void main(String[] args) {
-        n = 4;
-        m = 3;
-        a = new int[n];
-        used = new boolean[n+1];
+        int[][] matrix1 = {{1,2,3},{4,5,6},{7,8,9}};
+        int[][] matrix2 = {{5,6,7},{7,8,9},{10,11,12}};
+        matrixOutput(matrix1);
+        matrixOutput(matrix2);
+        matrixOutput(multMatrix(matrix1,matrix2));
+    }
 
-        System.out.println(validBrackets("([)]"));
-        perest(0);
+    public static int[][] multMatrix(int[][] matrix1, int[][] matrix2) {
+        if(matrix1.length == 0 || matrix2.length == 0) return new int[0][0];
+        if(matrix1[0].length != matrix2.length) return new int[0][0];
+        int[][] result = new int[matrix1.length][matrix2[0].length];
+        for (int i = 0; i < matrix1.length; i++) {
+            for (int j = 0; j < matrix1[i].length; j++) {
+                for (int k = 0; k < matrix2[0].length; k++) {
+                    result[i][k] += matrix1[i][j] * matrix2[j][k];
+                }
+            }
+        }
+        return result;
+    }
+
+    public static void matrixOutput(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println("");
+        }
+        System.out.println("----------");
     }
 
     public static boolean bracketsEquals(char br, char br2) {
