@@ -12,16 +12,14 @@ public class BreadthFirstSearch {
         adjacencyList.add(Arrays.asList(6));
         adjacencyList.add(Arrays.asList(6));
         adjacencyList.add(Arrays.asList(4));
-        System.out.println(breadthFirstSearch(adjacencyList, 6));
+        System.out.println(breadthFirstSearch(adjacencyList, 6, 2));
     }
 
-    public static boolean breadthFirstSearch(List<List<Integer>> adjacencyList, Integer value) {
-        if(value > adjacencyList.size()) return false;
+    public static boolean breadthFirstSearch(List<List<Integer>> adjacencyList, Integer value, Integer start) {
+        if(value > adjacencyList.size() || start > adjacencyList.size()) return false;
         Queue<Integer> queue = new ArrayDeque<>();
-        queue.addAll(adjacencyList.get(0));
-//        System.out.println(queue);
-//        System.out.println(queue.remove());
-//        System.out.println(queue);
+        queue.addAll(adjacencyList.get(start));
+
         int iter = 0;
         while (!queue.isEmpty()) {
             System.out.println(queue);
