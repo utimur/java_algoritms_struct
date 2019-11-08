@@ -1,7 +1,7 @@
 package Algoritms;
 
-import java.util.ArrayList;
-import java.util.Stack;
+import java.util.*;
+
 
 public class Algs {
     static int n ;
@@ -15,6 +15,37 @@ public class Algs {
         matrixOutput(matrix1);
         matrixOutput(matrix2);
         matrixOutput(multMatrix(matrix1,matrix2));
+        System.out.println(nextBiggerNumber(414));
+    }
+
+    public static long nextBiggerNumber(long n)
+    {
+        List<Long> split = longSplit(n);
+        for (int i = split.size() - 1; i > 0; i--) {
+            if (split.get(i - 1) < split.get(i)) {
+                Collections.swap(split,i-1,i);
+                break;
+            }
+        }
+        long res = 0;
+        for (int i = 0; i < split.size(); i++) {
+            res += split.get(i);
+            res *=10;
+        }
+        res /= 10;
+        System.out.println(res);
+        return n;
+    }
+
+    public static List longSplit(long n) {
+        ArrayList<Long> arr = new ArrayList<>();
+        long i = n-1;
+        while (n > 0) {
+            arr.add(n % 10);
+            n/=10;
+        }
+        Collections.reverse(arr);
+        return arr;
     }
 
     public static int[][] multMatrix(int[][] matrix1, int[][] matrix2) {
