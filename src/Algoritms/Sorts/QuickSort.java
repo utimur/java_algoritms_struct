@@ -15,11 +15,11 @@ public class QuickSort {
         if (arr.length == 0) return;
         if(left >= right) return;
 
-        int middle = (left + right ) / 2;
+        int middle = (left + right) / 2;
         int pivot = arr[middle];
 
         int i = left, j = right;
-        while (i < j) {
+        while (i <= j) {
             while (arr[i] < pivot) {
                 i++;
             }
@@ -32,9 +32,13 @@ public class QuickSort {
                 arr[j] = tmp;
                 i++;
                 j--;
-             }
+            }
         }
-        if( left < j) quickSort(arr, left, j);
-        if( right > i) quickSort(arr, i, right);
+        if (left < j) {
+            quickSort(arr, left, j);
+        }
+        if (right > i) {
+            quickSort(arr, i, right);
+        }
     }
 }
