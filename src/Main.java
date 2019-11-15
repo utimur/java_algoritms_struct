@@ -1,3 +1,5 @@
+import Structures.MyList.MyArrayList;
+
 import java.io.*;
 import java.util.*;
 import java.util.function.Predicate;
@@ -13,8 +15,15 @@ public class Main {
         List<Integer> arrayList = arr.stream().filter((x)->x==5).collect(Collectors.toList());
         System.out.println(arrayList);
 
-        for (Integer i:arr) {
-            System.out.println(i);
-        }
+        MyArrayList myArrayList = new MyArrayList();
+        myArrayList.push(5);
+        myArrayList.push(2);
+        myArrayList.push(2);
+        myArrayList.push(22);
+        myArrayList.push(25);
+        myArrayList.push(22);
+        myArrayList.clear();
+        myArrayList.push(4);
+        myArrayList.printAll();
     }
 }

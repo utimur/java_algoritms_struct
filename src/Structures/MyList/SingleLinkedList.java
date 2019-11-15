@@ -44,7 +44,6 @@ public class SingleLinkedList implements mList {
         }
     }
 
-    @Override
     public void delete(Object object) {
         Node x = head;
         if (x.equals(object)) {

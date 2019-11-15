@@ -16,6 +16,17 @@ public class Algs {
         matrixOutput(matrix2);
         matrixOutput(multMatrix(matrix1,matrix2));
         System.out.println(nextBiggerNumber(414));
+        System.out.println(febonachi(11));
+    }
+
+    public static int febonachi(int n) {
+        int[] arr = new int[n];
+        arr[0] = 1;
+        arr[1] = 1;
+        for (int i = 2; i < n; i++) {
+            arr[i] = arr[i - 1] + arr[i - 2];
+        }
+        return arr[n-1];
     }
 
     public static long nextBiggerNumber(long n)
