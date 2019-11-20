@@ -7,19 +7,15 @@ import java.util.stream.Collectors;
 
 public class FileInputOutput {
     public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(new File("output.txt"));
-        FileWriter fileWriter = new FileWriter("input.txt",true);
+        Scanner scanner = new Scanner(new File("input.txt"));
+        FileWriter fileWriter = new FileWriter("output.txt");
 
         String nums;
         while (scanner.hasNextLine()) {
             nums = scanner.nextLine();
             String[] strNums = nums.split(" ");
             List<Integer> arr = Arrays.stream(strNums).map((x)-> Integer.parseInt(x)).collect(Collectors.toList());
-            System.out.println(arr.get(0).getClass());
+            System.out.println(arr.get(0) + arr.get(1));
         }
-        fileWriter.write("1\n");
-        fileWriter.flush();
-        fileWriter.close();
-        scanner.close();
     }
 }

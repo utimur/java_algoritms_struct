@@ -14,11 +14,62 @@ public class Algs {
         int[][] matrix2 = {{5,6,7},{7,8,9},{10,11,12}};
         matrixOutput(matrix1);
         matrixOutput(matrix2);
-        matrixOutput(multMatrix(matrix1,matrix2));
-        System.out.println(nextBiggerNumber(414));
-        System.out.println(febonachi(11));
+        System.out.println(solveSuperMarketQueue(new int[]{2, 2, 3, 3, 4, 4}, 2));
     }
 
+    public static int solveSuperMarketQueue(int[] customers, int n) {
+        if(customers.length == 0 || n==0) return 0;
+        if(customers.length == 1) return customers[0];
+        if (n > customers.length) {
+            int max = 0;
+            for (int i = 0; i < customers.length; i++) {
+                if (customers[i] > max) {
+                    max = customers[i];
+                }
+            }
+            return max;
+        }
+        Queue<Integer> queue = new ArrayDeque<>();
+        for (int i = 0; i < customers.length; i++) {
+            queue.add(customers[i]);
+        }
+        int[] cassa = new int[n];
+        for (int i = 0; i < cassa.length; i++) {
+            cassa[i] = queue.remove();
+        }
+        int time = 0;
+        int index = 0;
+        while (index != customers.length) {
+            for (int i = 0; i < cassa.length; i++) {
+                cassa[i] = cassa[i]-1;
+                if (cassa[i] == 0) {
+                    index++;
+                    if (!queue.isEmpty()) {
+                        cassa[i] = queue.remove();
+                    }
+                }
+            }
+            time++;
+        }
+        return time;
+    }
+
+    static String toCamelCase(String s){
+        if(s.isEmpty()) return "";
+        String str = String.valueOf(s.charAt(0));
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) == '-' || s.charAt(i) == '_') {
+
+            } else {
+                if (s.charAt(i - 1) == '-' || s.charAt(i - 1) == '_') {
+                    str += String.valueOf(s.charAt(i)).toUpperCase();
+                } else {
+                    str += s.charAt(i);
+                }
+            }
+        }
+        return str;
+    }
     public static int febonachi(int n) {
         int[] arr = new int[n];
         arr[0] = 1;

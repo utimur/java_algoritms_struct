@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="97485e7a-78c0-4bcb-a3d6-911c5c4b5315" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_alg_struct/Algoritms/Algs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_alg_struct/Algoritms/Algs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_alg_struct/Structures/MyTree/BinnaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_alg_struct/Structures/MyTree/BinnaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_alg_struct/FileInputOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_alg_struct/FileInputOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_alg_struct/Structures/MyList/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_alg_struct/Structures/MyList/MyArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algoritms/Algs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritms/Algs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structures/MyList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structures/MyList/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileInputOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileInputOutput.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,65 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algoritms/Algs.java">
+        <entry file="file://$PROJECT_DIR$/src/FileInputOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="method#febonachi#0;class#Algs#0" />
-                <element signature="method#nextBiggerNumber#0;class#Algs#0" />
-                <element signature="method#longSplit#0;class#Algs#0" />
-                <element signature="method#multMatrix#0;class#Algs#0" />
-                <element signature="method#matrixOutput#0;class#Algs#0" />
-                <element signature="method#bracketsEquals#0;class#Algs#0" />
-                <element signature="method#validBrackets#0;class#Algs#0" />
-                <element signature="method#rec#0;class#Algs#0" />
-                <element signature="method#perest#0;class#Algs#0" />
-                <element signature="method#out#0;class#Algs#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Structures/MyList/mList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Structures/MyList/MyArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-              <folding>
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="204">
+              <caret line="17" column="56" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,31 +36,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Structures/MyList/SingleLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/MultiThreading/MultiThreading.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="68">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
-                <element signature="method#delete#0;class#SingleLinkedList#0" />
-                <element signature="method#delete#1;class#SingleLinkedList#0" />
-                <element signature="method#push#0;class#SingleLinkedList#0" />
-                <element signature="method#pop#0;class#SingleLinkedList#0" />
-                <element signature="method#index#0;class#SingleLinkedList#0" />
-                <element signature="method#find#0;class#SingleLinkedList#0" />
-                <element signature="method#printAll#0;class#SingleLinkedList#0" />
-                <element signature="method#indexDecrement#0;class#SingleLinkedList#0" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MultiThreading/MultiThreadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-384">
+              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Structures/MyTree/BinnaryTree.java">
+        <entry file="file://$PROJECT_DIR$/firstFile.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="51">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/secondFile.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -121,15 +96,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algoritms/Search/BinnarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -192,17 +158,22 @@
         <option value="$PROJECT_DIR$/src/BinaryOperations/BinaryOperations.java" />
         <option value="$PROJECT_DIR$/src/Algoritms/Search/BreadthFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/Algoritms/Search/AlgDijkstra.java" />
-        <option value="$PROJECT_DIR$/input.txt" />
-        <option value="$PROJECT_DIR$/output.txt" />
-        <option value="$PROJECT_DIR$/src/FileInputOutput.java" />
         <option value="$PROJECT_DIR$/src/Structures/MyTree/Tree.java" />
         <option value="$PROJECT_DIR$/src/Structures/MyTree/testTree.java" />
         <option value="$PROJECT_DIR$/src/Structures/MyTree/BinnaryTree.java" />
-        <option value="$PROJECT_DIR$/src/Algoritms/Algs.java" />
         <option value="$PROJECT_DIR$/src/Structures/MyList/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/Structures/MyList/mList.java" />
-        <option value="$PROJECT_DIR$/src/Structures/MyList/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Structures/MyList/MyArrayList.java" />
+        <option value="$PROJECT_DIR$/src/Algoritms/Algs.java" />
+        <option value="$PROJECT_DIR$/src/yandex/Fileinp.java" />
+        <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/src/FileInputOutput.java" />
+        <option value="$PROJECT_DIR$/src/MultiThreading/MultiThreading.java" />
+        <option value="$PROJECT_DIR$/secondFile.txt" />
+        <option value="$PROJECT_DIR$/src/MultiThreading/MultiThreadTest.java" />
+        <option value="$PROJECT_DIR$/firstFile.txt" />
       </list>
     </option>
   </component>
@@ -218,6 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,27 +207,12 @@
               <item name="java_alg_struct" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_alg_struct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algoritms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_alg_struct" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_alg_struct" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_alg_struct" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_alg_struct" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="MyList" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiThreading" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,20 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="AlgDijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algoritms.Search.AlgDijkstra" />
-      <module name="java_alg_struct" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algoritms.Search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MultiThreadTest">
     <configuration name="Algs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algoritms.Algs" />
       <module name="java_alg_struct" />
@@ -331,12 +276,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Structures.MyTree.testTree" />
+    <configuration name="MultiThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.MultiThreadTest" />
       <module name="java_alg_struct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Structures.MyTree.*" />
+          <option name="PATTERN" value="MultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.MultiThreading" />
+      <module name="java_alg_struct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Algs" />
-        <item itemvalue="Application.testTree" />
+        <item itemvalue="Application.MultiThreadTest" />
+        <item itemvalue="Application.MultiThreading" />
         <item itemvalue="Application.FileInputOutput" />
-        <item itemvalue="Application.AlgDijkstra" />
+        <item itemvalue="Application.Algs" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -384,18 +342,21 @@
       <workItem from="1573232140413" duration="5142000" />
       <workItem from="1573365811623" duration="1027000" />
       <workItem from="1573376572460" duration="13000" />
-      <workItem from="1573837118836" duration="1416000" />
+      <workItem from="1573837118836" duration="1890000" />
+      <workItem from="1573889190963" duration="6647000" />
+      <workItem from="1574054005065" duration="2081000" />
+      <workItem from="1574091551131" duration="3088000" />
+      <workItem from="1574180770069" duration="4622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80562000" />
+    <option name="totallyTimeSpent" value="97474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35060728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37651822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,7 +365,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,6 +412,12 @@
           <line>4</line>
           <properties />
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algoritms/Algs.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -507,16 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileInputOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algoritms/Sorts/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -548,16 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algoritms/Search/AlgDijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -582,24 +529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Structures/MyTree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Structures/MyTree/BinnaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Structures/MyTree/testTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -610,39 +543,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algoritms/Search/BreadthFirstSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Structures/MyList/mList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Structures/MyList/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+          <folding>
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Structures/MyList/DoubleLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/Structures/MyTree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algoritms/Algs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="method#febonachi#0;class#Algs#0" />
-            <element signature="method#nextBiggerNumber#0;class#Algs#0" />
-            <element signature="method#longSplit#0;class#Algs#0" />
-            <element signature="method#multMatrix#0;class#Algs#0" />
-            <element signature="method#matrixOutput#0;class#Algs#0" />
-            <element signature="method#bracketsEquals#0;class#Algs#0" />
-            <element signature="method#validBrackets#0;class#Algs#0" />
-            <element signature="method#rec#0;class#Algs#0" />
-            <element signature="method#perest#0;class#Algs#0" />
-            <element signature="method#out#0;class#Algs#0" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -663,40 +599,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Structures/MyList/mList.java">
+    <entry file="file://$PROJECT_DIR$/src/yandex/Fileinp.java" />
+    <entry file="file://$PROJECT_DIR$/src/yandex/handInput.java" />
+    <entry file="file://$PROJECT_DIR$/src/yandex/ProgInBeach.java" />
+    <entry file="file://$PROJECT_DIR$/src/Algoritms/Algs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Structures/MyList/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+        <state relative-caret-position="918">
+          <caret line="54" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
           <folding>
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
+            <element signature="method#toCamelCase#0;class#Algs#0" />
+            <element signature="method#febonachi#0;class#Algs#0" />
+            <element signature="method#nextBiggerNumber#0;class#Algs#0" />
+            <element signature="method#longSplit#0;class#Algs#0" />
+            <element signature="method#multMatrix#0;class#Algs#0" />
+            <element signature="method#matrixOutput#0;class#Algs#0" />
+            <element signature="method#bracketsEquals#0;class#Algs#0" />
+            <element signature="method#validBrackets#0;class#Algs#0" />
+            <element signature="method#rec#0;class#Algs#0" />
+            <element signature="method#perest#0;class#Algs#0" />
+            <element signature="method#out#0;class#Algs#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/FileInputOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="204">
+          <caret line="17" column="56" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Structures/MyTree/testTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algoritms/Search/BreadthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Structures/MyList/DoubleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MultiThreading/MultiThreading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secondFile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstFile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MultiThreading/MultiThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
